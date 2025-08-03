@@ -4,10 +4,231 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-
+		<link rel="stylesheet" href="/css/styles.css" />
 		<title>SnabbTech Homepage</title>
 	</head>
 	<body>
-		<script type="module" src="/src/main.js"></script>
+		<header class="header">
+			<nav class="header__nav">
+				<div class="header__logo">
+					<img
+						src="/snabbtech.png"
+						alt="snabbtech-full-logo"
+						width="300"
+						height="50"
+					/>
+				</div>
+
+				<ul class="header__menu">
+					<li>
+						<a href="#home">Home</a>
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#services">Services</a>
+					</li>
+					<li>
+						<a href="#industry">Industry</a>
+					</li>
+					<li>
+						<a href="#portfolio">Portfolio</a>
+					</li>
+					<li>
+						<a href="#partnership">Partnership</a>
+					</li>
+					<li>
+						<a href="#blog">Blog</a>
+					</li>
+				</ul>
+
+				<div class="header-btn">
+					<a href="#contact">Get in Touch</a>
+				</div>
+
+				<!-- <ul class="header__menu-mobile" data-aos="fade-down">
+					<li>
+						<img src="/assets/menu.svg" alt="menu" />
+					</li>
+				</ul> -->
+			</nav>
+		</header>
+
+		<section class="hero">
+			<div class="hero-container">
+				<div class="hero-content">
+					<h1>
+						Your Trusted Tech Partner in
+						<span>Product Engineering.</span>
+					</h1>
+
+					<p class="hero-description">
+						<span>Bespoke </span
+						><b>Web, App, and Custom GenAI Development</b
+						><span>—from </span
+						><b
+							>Concept to Scalable, Secure, and High-Performance
+							Solutions.</b
+						>
+					</p>
+
+					<div class="hero-cta">
+						<a class="hero-cta__btn" href="#contact"
+							>Get in Touch</a
+						>
+					</div>
+				</div>
+				<div class="hero-image">
+					<div class="hero-image-container">
+						<img src="/hero-img-1.png" alt="hero-img" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="preview">
+			<!-- Preview -->
+			<div class="preview-container">
+				<h1 class="preview-heading">
+					Discover the <span>Latest Innovations</span> at SnabbTech
+				</h1>
+				<p class="preview-content">
+					Stay ahead with cutting-edge solutions in AI, product
+					engineering, and custom development. From scalable SaaS
+					platforms to GenAI-powered automation, we’re building the
+					future of tech—efficient, secure, and ready to scale.
+				</p>
+			</div>
+
+			<!-- Reviews -->
+			<div class="preview-review">
+				<div class="review-list">
+					<div class="review__card">
+						<span class="name">Facebook</span>
+						<span class="rating">5.0</span>
+						<div class="stars">
+							<span>★</span><span>★</span><span>★</span
+							><span>★</span><span>★</span>
+						</div>
+					</div>
+					<div class="review__card">
+						<!-- <span class="name">Clutch</span> -->
+						<iframe
+							id="iframe-0.20239707928019768"
+							width="100%"
+							src="https://widget.clutch.co/widgets/get/2?ref_domain=snabbtech.com&amp;uid=2347564&amp;rel_nofollow=true&amp;ref_path=/"
+							height="45px"
+							scrolling="no"
+							style="
+								border: none;
+								overflow: hidden;
+								display: block;
+								height: 45px;
+							"
+							title="[object Object]2"
+						></iframe>
+
+						<div class="stars"></div>
+					</div>
+					<div class="review__card">
+						<span class="name">Google</span>
+						<span class="rating">4.8</span>
+						<div class="stars">
+							<span>★</span><span>★</span><span>★</span
+							><span>★</span><span>★</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services">
+			<div class="services-list">
+				<!-- service lists -->
+				<div class="service-content">
+					<div>
+						<img src="/service-1.png" alt="" />
+					</div>
+					<h3 class="service__title">Custom Software Development</h3>
+					<p class="service__description">
+						Web & mobile applications tailored to business needs.
+					</p>
+				</div>
+
+				<div class="service-content">
+					<div>
+						<img src="/service-2.png" alt="" />
+					</div>
+					<h3 class="service__title">Generative AI Development</h3>
+					<p class="service__description">
+						AI-powered solutions for automation and innovation.
+					</p>
+				</div>
+
+				<div class="service-content">
+					<div>
+						<img src="/service-3.png" alt="" />
+					</div>
+					<h3 class="service__title">
+						Product Engineering & Consultation
+					</h3>
+					<p class="service__description">
+						Expert guidance on how to build, what to build, and how
+						to scale.
+					</p>
+				</div>
+
+				<div class="service-content">
+					<div>
+						<img src="/service-4.png" alt="" />
+					</div>
+					<h3 class="service__title">Growth and Description</h3>
+					<p class="service__description">
+						We help startups and SMEs turn ideas into scalable
+						digital products—cost-effectively.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="Portfolio">
+			<div class="Portfolio-header">
+				<h5>PORTFOLIO</h5>
+				<h3>The Successfully <span>Snabb</span> Businesses</h3>
+				<p>
+					We take pride in catering their growing business needs and
+					making them stand apart on the App Store & Google Play.
+				</p>
+			</div>
+
+			<div class="Portfolio-cards">
+				<div class="Portfolio-content">
+					<div class="Portfolio-logo">
+						<img src="/portfolio-1.png" alt="" />
+					</div>
+					<p>
+						TennisPAL is a community where you can find and connect
+						with other like-minded tennis players using the app. Use
+						TennisPAL to find your next tennis partner, share your
+						favourite moments, discover a new tennis court, and
+						more.
+					</p>
+					<p>
+						Meet, play, share, and learn tennis, anytime, anywhere!
+					</p>
+					<div><h3>Available on: AppStore, PlayStore</h3></div>
+					<div>Downloads: 1k+ | Rating: 5/5</div>
+					<a href="#contact">Contact Us</a>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer__socials"></div>
+
+			<div class="footer__navigation"></div>
+		</footer>
+		<!-- <script type="module" src="/src/main.js"></script> -->
 	</body>
 </html>
