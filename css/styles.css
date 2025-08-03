@@ -3,6 +3,7 @@
 @import url("sections/header.css");
 @import url("sections/hero.css");
 @import url("sections/services1.css");
+@import url("sections/portfolio.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
@@ -26,12 +27,13 @@
 
 	--text-primary: #ffffff;
 	--text-secondary: #4d4e50;
-	--text-special: #ffffffcc;
+	--text-accent: #61ce70;
 
 	--text-black-50: #00000080;
 	--text-black-200: #212833;
 	--text-neutral: #4c5267;
-	--text-gray-200: #777777;
+	--text-grey-100: #ffffffcc;
+	--text-gray-600: #777777;
 
 	--black-300: #333333;
 	/* --color-creamson: #fff0de; */
@@ -66,6 +68,18 @@ h1 {
 }
 
 h1 > span {
+	color: var(--secondary-color);
+}
+
+h2 {
+	font-family: var(--font-inter);
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 70px;
+	color: var(--primary-color);
+}
+
+h2 > span {
 	color: var(--secondary-color);
 }
 
