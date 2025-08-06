@@ -1,16 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-@import url("sections/header.css");
-@import url("sections/hero.css");
-@import url("sections/services1.css");
-@import url("sections/portfolio.css");
+@import url("home/header.css");
+@import url("home/hero.css");
+@import url("home/services1.css");
+@import url("home/portfolio.css");
+@import url("home/support.css");
+/* @import url("sections/footer.css"); */
+
+@font-face {
+	font-family: "sf pro", Sans-serif;
+	src: url("/fonts/sfPro-Semibold.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "TEXT", Sans-serif;
+	src: url("/fonts/customText-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
-	/* 
-    "sf pro", Sans-serif 
-    "TEXT", Sans-serif
-    */
+	--font-sfpro: "sf pro", Sans-serif;
+	--font-text: "TEXT", Sans-serif;
 
 	--font-inter: "Inter", "sans-serif";
 	--font-nunito: "Nunito";
@@ -51,7 +65,26 @@ body {
 	margin: 0 auto;
 	color: #000000;
 	background-color: var(--bg-main);
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-sfpro);
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 70px;
+	color: var(--primary-color);
+	margin: 0;
+}
+
+h1 > span,
+h2 > span,
+h3 > span {
+	color: var(--secondary-color);
 }
 
 a {
@@ -59,32 +92,33 @@ a {
 	color: inherit;
 }
 
-h1 {
-	font-family: var(--font-inter);
-	font-size: 50px;
-	font-weight: 600;
-	line-height: 70px;
-	color: var(--primary-color);
-}
-
-h1 > span {
-	color: var(--secondary-color);
-}
-
-h2 {
-	font-family: var(--font-inter);
-	font-size: 30px;
-	font-weight: 600;
-	line-height: 70px;
-	color: var(--primary-color);
-}
-
-h2 > span {
-	color: var(--secondary-color);
-}
-
 p {
-	font-family: var(--font-nunito);
+	font-family: var(--font-text);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.btn {
+	/* width: 100%; */
+	width: fit-content;
+	font-family: var(--font-text);
+	font-size: 14px;
+	text-align: center;
+	height: auto;
+	padding: 12px 20px;
+	background-color: var(--btn-bg);
+	color: var(--btn-text);
+	border-radius: 0px;
+}
+
+.btn-hover:hover {
+	background-color: var(--primary-color);
+}
+
+.container {
+	max-width: 1320px;
+	margin: 0 auto;
 }
 
 .flex-center {

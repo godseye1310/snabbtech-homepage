@@ -58,7 +58,7 @@
 .header__menu li {
 	font-weight: 600;
 	font-size: 16px;
-	font-family: var(--plus-jakarta-sans);
+	font-family: var(--font-text);
 	color: black;
 	cursor: pointer;
 }
@@ -72,18 +72,10 @@
 }
 
 .header-btn {
-	margin-left: 40px;
-	/* margin: -5px 0px 0px; */
-	/* padding-left: 44px; */
 	width: 15%;
-}
-
-.header-btn a {
-	width: 100%;
-	height: auto;
-	padding: 12px 20px;
-	background-color: var(--btn-bg);
-	color: var(--btn-text);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .header__menu-mobile {

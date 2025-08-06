@@ -3,7 +3,6 @@
 }
 
 .portfolio-header {
-	padding: 0% 10%;
 	padding-top: 50px;
 	text-align: left;
 	display: flex;
@@ -11,30 +10,28 @@
 }
 
 .portfolio-header h5 {
-	color: var(--secondary-color);
 	font-size: 16px;
-	font-weight: 600;
-	font-family: var(--font-jost);
+	font-family: var(--font-text);
+	color: var(--secondary-color);
 }
 
 .portfolio-header p {
 	margin-bottom: 16px;
-	color: var(--text-secondary);
 	font-size: 18px;
-	font-weight: 400;
-	font-family: var(--font-jost);
+	font-family: var(--font-text);
+	color: var(--text-secondary);
 }
 
 .portfolio-cards {
-	padding: 0% 10%;
 	background-color: var(--primary-color);
-	padding: 40px 10%;
+	padding: 40px 0%;
 }
 
 .portfolio-container {
 	display: flex;
 	align-items: stretch;
 	padding: 10px 0px;
+	font-family: var(--font-nunito);
 }
 
 .portfolio-container > div {
@@ -66,7 +63,6 @@
 }
 
 .portfolio-content__description p {
-	font-family: var(--font-nunito);
 	color: var(--text-grey-100);
 	font-size: 125%;
 	text-shadow: none;
@@ -80,7 +76,6 @@
 .portfolio-content__download {
 	padding: 24px 0px;
 	width: 100%;
-	font-family: "Nunito";
 	color: #ffffff;
 	font-size: 22px;
 	text-shadow: none;
@@ -96,6 +91,11 @@
 .portfolio-content__download > div {
 	display: flex;
 	align-items: center;
+}
+
+.download-title {
+	color: #ffffff;
+	font-size: 22px;
 }
 
 .portfolio-content__download__platforms {
@@ -119,7 +119,6 @@
 	align-items: center;
 	justify-content: flex-start;
 	color: #ffffff;
-	font-family: var(--font-nunito);
 	font-size: 32px;
 	font-weight: 600;
 	list-style: none;

@@ -1,5 +1,5 @@
 .hero {
-	background-image: url("/homeBanner.webp");
+	background-image: url("/img/homeBanner.webp");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 .hero-container {
 	/* margin: auto; */
 	display: flex;
-	padding: 0% 10%;
+	padding: 0% 0%;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -35,7 +35,6 @@
 
 .hero-description {
 	font-size: 24px;
-	font-weight: 400;
 	line-height: 1.6;
 	margin-bottom: 20px;
 	color: var(--text-secondary);
@@ -51,13 +50,7 @@
 
 .hero-cta__btn {
 	width: auto;
-	background-color: var(--btn-bg);
-	color: var(--btn-text);
-	font-size: 15px;
-	font-weight: 500;
 	letter-spacing: 1px;
-	padding: 10px 20px;
-	border-radius: 0px;
 	display: inline-block;
 }
 
@@ -90,8 +83,9 @@
 }
 
 .preview-container {
-	padding: 0% 10%;
-	margin: auto;
+	padding: 0% 0%;
+	margin: 0 auto;
+	padding-bottom: 60px;
 	display: flex;
 	align-items: center;
 	/* justify-content: space-between; */
