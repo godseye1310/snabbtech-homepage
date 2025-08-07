@@ -1,0 +1,13 @@
+.about-hero {
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	margin-top: 69px;
+	/* align-items: center; */
+	justify-content: center;
+}
