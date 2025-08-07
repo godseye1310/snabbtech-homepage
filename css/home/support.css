@@ -42,6 +42,12 @@
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 	border-radius: 10px;
 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	row-gap: 12px;
+
 	/* background-color: #ffffff; */
 	background-image: url("/img/customizeBg.png");
 	background-repeat: no-repeat;
@@ -95,4 +101,14 @@
 	font-weight: 500;
 	line-height: 1.25rem;
 	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767px) {
+	.support-section {
+		display: flex;
+		flex-direction: column;
+	}
+	.support-section > article {
+		width: 100%;
+	}
 }

@@ -54,3 +54,22 @@
 	line-height: 1.7;
 	color: var(--text-primary);
 }
+
+@media (max-width: 1023px) {
+	/* Styles here apply to screen widths less than 1024px */
+	.services-list {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 12px;
+	}
+
+	.service-card {
+		width: 45%;
+	}
+}
+
+@media (max-width: 767px) {
+	.service-card {
+		width: 100%;
+	}
+}

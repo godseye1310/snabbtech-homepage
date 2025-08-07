@@ -24,13 +24,13 @@
 
 .portfolio-cards {
 	background-color: var(--primary-color);
-	padding: 40px 0%;
+	padding: 48px 0%;
 }
 
 .portfolio-container {
 	display: flex;
 	align-items: stretch;
-	padding: 10px 0px;
+	padding: 48px 0px;
 	font-family: var(--font-nunito);
 }
 
@@ -115,7 +115,7 @@
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	align-items: center;
 	justify-content: flex-start;
 	color: #ffffff;
@@ -141,25 +141,87 @@
 	padding: 0;
 }
 
+.portfolio-image {
+	width: 50%;
+	flex: 1 1 auto;
+	display: flex;
+}
+
 .portfolio-image-container {
+	overflow: hidden;
 	padding-left: 36px;
 	width: 100%;
+	/* width: auto; */
 }
 
 .portfolio-image-container img {
-	width: auto;
 	height: 600px;
 }
 
 .portfolio-cta {
-	padding: 12px 20px;
-	background-color: var(--btn-bg);
-	color: var(--btn-text);
-	font-size: 14px;
+	height: fit-content;
+	padding: 0px 0px 48px;
+}
+
+.portfolio-cta__btn {
 	font-family: var(--font-jost);
 	text-align: center;
 	letter-spacing: 2px;
 	word-spacing: normal;
 	text-transform: none;
 	font-weight: 500;
+}
+
+@media (max-width: 1023px) {
+	/* Styles here apply to screen widths less than 1024px */
+
+	.divider {
+		margin: 0px 2.6rem;
+	}
+
+	.portfolio-image-container img {
+		height: 500px;
+	}
+}
+
+@media (max-width: 767px) {
+	/* Styles here apply to screen widths less than 768px */
+
+	.portfolio-container {
+		flex-direction: column-reverse;
+	}
+
+	.portfolio-container > div {
+		width: 100%;
+	}
+
+	.portfolio-content {
+		text-align: center;
+		align-items: center;
+	}
+
+	.portfolio-content__download > div {
+		justify-content: center;
+	}
+
+	.portfolio-content__stats {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.portfolio-image-container {
+		display: flex;
+		justify-content: center;
+		padding-block: 48px;
+		padding-left: 0px;
+	}
+
+	.portfolio-image-container img {
+		height: 300px;
+	}
+
+	.portfolio-cta {
+		display: flex;
+		justify-content: center;
+	}
 }

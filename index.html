@@ -10,14 +10,14 @@
 	<body>
 		<header class="header">
 			<nav class="header__nav">
-				<div class="header__logo">
+				<figure class="header__logo">
 					<img
 						src="/img/snabbtech.png"
 						alt="snabbtech-full-logo"
 						width="300"
 						height="50"
 					/>
-				</div>
+				</figure>
 
 				<ul class="header__menu">
 					<li>
@@ -43,17 +43,30 @@
 					</li>
 				</ul>
 
+				<div class="header__menu-mobile">
+					<div class="header__menu-btn">
+						<img
+							src="/img/menu.svg"
+							alt="menu"
+							width="50"
+							height="30"
+						/>
+					</div>
+
+					<!-- Mobile Menu -->
+
+					<!-- <ul>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul> -->
+				</div>
+
 				<div class="header-btn">
 					<a class="btn" href="#contact">
 						<span> Get in Touch </span>
 					</a>
 				</div>
-
-				<!-- <ul class="header__menu-mobile" data-aos="fade-down">
-					<li>
-						<img src="/assets/menu.svg" alt="menu" />
-					</li>
-				</ul> -->
 			</nav>
 		</header>
 
@@ -82,11 +95,14 @@
 						>
 					</div>
 				</div>
-				<div class="hero-image">
-					<div class="hero-image-container">
-						<img src="/img/hero-img-1.png" alt="hero-img" />
-					</div>
-				</div>
+				<figure class="hero-image">
+					<img
+						src="/img/hero-img-1.png"
+						alt="hero-img"
+						width="375px"
+						height="742px"
+					/>
+				</figure>
 			</div>
 		</section>
 
@@ -331,12 +347,17 @@
 
 						<!-- Portfolio Image -->
 						<div class="portfolio-image">
-							<div class="portfolio-image-container">
+							<figure class="portfolio-image-container">
 								<img src="/img/tennispal-img.png" alt="" />
-							</div>
+							</figure>
 						</div>
 					</div>
-					<a class="portfolio-cta" href="#contact">Contact Us</a>
+
+					<div class="portfolio-cta">
+						<a class="btn portfolio-cta__btn" href="#contact"
+							>Contact Us</a
+						>
+					</div>
 				</div>
 			</div>
 		</section>

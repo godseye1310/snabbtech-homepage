@@ -5,7 +5,7 @@
 @import url("home/services1.css");
 @import url("home/portfolio.css");
 @import url("home/support.css");
-/* @import url("sections/footer.css"); */
+/* @import url("home/footer.css"); */
 
 @font-face {
 	font-family: "sf pro", Sans-serif;
@@ -135,4 +135,13 @@ p {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+@media (max-width: 1023px) {
+	/* Styles here apply to screen widths less than 1024px */
+
+	.container {
+		max-width: 1320px;
+		padding-inline: 2rem;
+	}
 }

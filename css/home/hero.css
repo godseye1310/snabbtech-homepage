@@ -144,3 +144,57 @@
 .stars span {
 	color: #fbbf24;
 }
+
+@media (max-width: 1023px) {
+	/* Styles here apply to screen widths less than 1024px */
+
+	.hero-container {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	.hero-content,
+	.hero-image {
+		width: 100%;
+	}
+
+	.hero-content {
+		padding-top: 84px;
+		padding-right: 78px;
+	}
+
+	.hero-image {
+		padding: 36px 0px;
+	}
+}
+
+@media (max-width: 768px) {
+	.hero-image img {
+		height: auto;
+	}
+
+	.preview-container {
+		flex-direction: column;
+	}
+
+	.preview-heading,
+	.preview-content {
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	.hero-content {
+		padding-right: 0px;
+	}
+
+	.hero-image {
+		justify-content: flex-end;
+		padding-top: 0px;
+	}
+
+	.hero-image img {
+		width: 150px;
+		height: auto;
+	}
+}
