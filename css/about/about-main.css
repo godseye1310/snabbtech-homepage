@@ -1,0 +1,127 @@
+#about h1 > span {
+	color: var(--secondary-color-2);
+}
+#about h2 > span {
+	color: var(--secondary-color-2);
+}
+
+#story .container-1140 {
+	max-width: 1140px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.story {
+	padding-block: 30px;
+}
+
+.about-main {
+	background-color: var(--bg-grey);
+}
+
+.mission {
+	padding-top: 130px;
+}
+
+.team {
+	padding-top: 130px;
+}
+
+.me-6 {
+	margin-right: 60px;
+}
+
+.team .mission img {
+	border-radius: 8px;
+}
+
+@media (max-width: 1023px) {
+	.team .mission p {
+		font-size: 16px !important;
+	}
+}
+
+/* service */
+.all-services > h2 {
+	padding: 100px 0px 40px;
+	color: var(--text-black-200);
+}
+.all-services h2 > span {
+	color: #77c58d !important;
+}
+
+.all-services__list {
+	padding: 40px 0px 80px;
+}
+
+.all-services__list > :last-child {
+	padding-top: 30px;
+}
+
+.all-service__card {
+	width: 20%;
+	margin-right: 10px;
+	padding: 50px 20px;
+	background-color: var(--bg-main);
+}
+
+.all-service__card > div {
+	margin-bottom: 25px;
+}
+
+.all-service__card > div > img {
+	width: 30%;
+	height: auto;
+}
+
+.all-service__card > h2 {
+	font-size: 20px;
+	line-height: 1;
+	color: var(--text-black-200);
+	text-align: center;
+}
+
+/* founder */
+
+.founder {
+	margin: 100px 0px;
+}
+
+/* responsive */
+@media screen and (max-width: 1023px) {
+	.all-services__list > :last-child {
+		padding-top: 0px;
+	}
+	.all-service__section {
+		flex-wrap: wrap;
+		gap: 25px;
+		padding: 20px;
+	}
+	.all-service__card {
+		width: 48%;
+		margin: 0px;
+		padding: 25px;
+	}
+
+	.all-service__card > div > img {
+		width: 25%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.all-service__card {
+		width: 100%;
+	}
+
+	.all-service__card > div > img {
+		width: 35%;
+		height: auto;
+	}
+
+	/* founder */
+	.founder {
+		margin: 50px 0px;
+	}
+}

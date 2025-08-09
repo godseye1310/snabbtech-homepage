@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
+/* Home page */
 @import url("home/header.css");
 @import url("home/hero.css");
 @import url("home/services1.css");
@@ -7,7 +8,10 @@
 @import url("home/support.css");
 /* @import url("home/footer.css"); */
 
+/* About page */
+@import url("about/about-hero.css");
 @import url("about/about-banner.css");
+@import url("about/about-main.css");
 
 @font-face {
 	font-family: "sf pro", Sans-serif;
@@ -34,6 +38,7 @@
 
 	--primary-color: #134872;
 	--secondary-color: #29c553;
+	--secondary-color-2: #70aa26;
 
 	--btn-bg: #70aa26;
 	--btn-text: #fff;
@@ -102,7 +107,11 @@ p {
 }
 
 ul,
-li {
+li,
+a,
+p,
+span,
+div {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
@@ -111,6 +120,23 @@ li {
 figure {
 	margin: 0px;
 	padding: 0px;
+}
+
+button {
+	cursor: pointer;
+	margin: 0px;
+}
+
+.btn:hover {
+	width: fit-content;
+	font-family: var(--font-text);
+	font-size: 14px;
+	text-align: center;
+	height: auto;
+	padding: 12px 20px;
+	background-color: var(--btn-bg);
+	color: var(--btn-text);
+	border-radius: 0px;
 }
 
 .btn {
@@ -136,7 +162,7 @@ figure {
 }
 
 .m-top {
-	margin-top: 69px;
+	padding-top: 69px;
 }
 
 .flex-center {
@@ -153,6 +179,11 @@ figure {
 
 @media (max-width: 1023px) {
 	/* Styles here apply to screen widths less than 1024px */
+
+	h1,
+	h2 {
+		font-size: 45px;
+	}
 
 	.container {
 		max-width: 1320px;

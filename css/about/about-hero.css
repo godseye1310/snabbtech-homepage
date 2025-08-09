@@ -1,0 +1,52 @@
+.about-hero {
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+}
+
+.about-hero-container {
+	display: flex;
+	padding: 0% 0%;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-hero-container div {
+	width: 50%;
+	/* margin: auto; */
+}
+
+.about-hero__content {
+	display: flex;
+	flex-direction: column;
+}
+
+.about-hero__content h1 {
+	color: white;
+	font-size: 43px;
+}
+
+.about-hero__content h1 span {
+	color: var(--btn-bg);
+}
+
+.about-hero__content p {
+	color: white;
+	font-size: 24px;
+	line-height: 1.6;
+	margin-bottom: 16px;
+}
+
+.about-hero__image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
