@@ -159,6 +159,7 @@ button {
 .container {
 	max-width: 1320px;
 	margin: 0 auto;
+	padding: 0 4px;
 }
 
 .m-top {
@@ -187,6 +188,12 @@ button {
 
 	.container {
 		max-width: 1320px;
-		padding-inline: 2rem;
+		padding-inline: 0.25rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		padding-inline: 0rem;
 	}
 }
