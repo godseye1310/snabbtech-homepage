@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
+/* Common UI components */
+@import url("main/header.css");
+/* @import url("home/footer.css"); */
+
 /* Home page */
-@import url("home/header.css");
 @import url("home/hero.css");
 @import url("home/services1.css");
 @import url("home/portfolio.css");
 @import url("home/support.css");
-/* @import url("home/footer.css"); */
 
 /* About page */
 @import url("about/about-hero.css");
@@ -159,7 +161,7 @@ button {
 .container {
 	max-width: 1320px;
 	margin: 0 auto;
-	padding: 0 4px;
+	padding: 0 2px;
 }
 
 .m-top {
@@ -187,7 +189,6 @@ button {
 	}
 
 	.container {
-		max-width: 1320px;
 		padding-inline: 0.25rem;
 	}
 }

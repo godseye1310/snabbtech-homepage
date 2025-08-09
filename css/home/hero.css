@@ -15,7 +15,7 @@
 .hero-container {
 	/* margin: auto; */
 	display: flex;
-	padding: 0% 0%;
+	padding: 0px 0px;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -151,6 +151,7 @@
 	.hero-container {
 		flex-direction: column;
 		justify-content: flex-start;
+		padding: 0px 4px;
 	}
 
 	.hero-content,
