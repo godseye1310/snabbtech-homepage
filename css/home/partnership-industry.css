@@ -24,7 +24,9 @@
 	color: var(--text-accent);
 	font-size: 16px;
 	font-family: var(--font-text);
-	line-height: 60px;
+	line-height: 36px;
+	display: flex;
+	gap: 10px;
 }
 .partnership-content h2 {
 	line-height: 64px;
@@ -108,7 +110,7 @@
 	margin-top: 36px;
 	display: flex;
 	flex-direction: column;
-	row-gap: 24px;
+	row-gap: 36px;
 	justify-content: space-between;
 }
 
@@ -177,6 +179,11 @@
 
 	.industry-container > div {
 		width: 100%;
+	}
+
+	.industry-content {
+		margin-top: 48px;
+		padding: 0px;
 	}
 }
 
