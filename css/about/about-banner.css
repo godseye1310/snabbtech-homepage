@@ -84,3 +84,15 @@
 	object-fit: cover;
 	height: auto;
 }
+
+@media screen and (max-width: 767px) {
+	.banner-image__grid {
+		flex-direction: column;
+		padding-inline: 24px;
+	}
+	.img-section__1,
+	.img-section__2,
+	.img-section__3 {
+		width: 100%;
+	}
+}

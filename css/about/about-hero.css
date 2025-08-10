@@ -13,12 +13,14 @@
 
 .about-hero-container {
 	display: flex;
-	padding: 0% 0%;
-	align-items: center;
 	justify-content: center;
+	align-items: baseline;
+	padding-top: 36px;
+	padding-inline: 0px;
+	padding-bottom: 30px;
 }
 
-.about-hero-container div {
+.about-hero-container > div {
 	width: 50%;
 	/* margin: auto; */
 }
@@ -26,27 +28,108 @@
 .about-hero__content {
 	display: flex;
 	flex-direction: column;
+	background-image: url("/public/img/about-img/about-banner.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 120px 0px 30px;
 }
 
 .about-hero__content h1 {
 	color: white;
 	font-size: 43px;
+	line-height: 1.5;
+	margin-bottom: 16px;
 }
-
 .about-hero__content h1 span {
 	color: var(--btn-bg);
 }
-
 .about-hero__content p {
 	color: white;
 	font-size: 24px;
 	line-height: 1.6;
 	margin-bottom: 16px;
 }
+.hero-cta {
+	width: 100%;
+	padding-top: 16px;
+}
 
 .about-hero__image {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	position: relative;
+	margin-left: 30px;
+	margin-bottom: 80px;
+}
+
+.about-hero__image figure {
+	width: 60%;
+	margin-left: 12px;
+}
+
+.about-hero__image > figure > img {
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+}
+
+.figure-main {
+	margin-left: 20px;
+}
+
+.figure-abs {
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	z-index: 10;
+	margin-left: 0px;
+}
+
+@media (max-width: 1320px) {
+	.about-hero-container {
+		padding-inline: 36px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.about-hero-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.about-hero-container > div {
+		width: 100%;
+		/* padding: 10px 100px 0px; */
+	}
+
+	.about-hero__image figure {
+		width: 50%;
+	}
+	.figure-main {
+		margin-top: 80px;
+	}
+	.figure-abs {
+		bottom: 25%;
+		top: unset;
+	}
+}
+
+@media (max-width: 767px) {
+	.about-hero__image {
+		flex-direction: column;
+		row-gap: 20px;
+		margin-left: 0px;
+	}
+
+	.about-hero__image figure {
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.figure-abs {
+		position: relative;
+		top: unset;
+		left: unset;
+	}
 }
