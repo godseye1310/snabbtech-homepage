@@ -8,6 +8,7 @@
 	width: 100%;
 	display: flex;
 	margin-top: 69px;
+	padding-inline: 48px;
 	/* align-items: center; */
 	justify-content: center;
 }
@@ -15,7 +16,7 @@
 .hero-container {
 	/* margin: auto; */
 	display: flex;
-	padding: 0px 0px;
+	padding: 0px 4px;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -151,7 +152,7 @@
 	.hero-container {
 		flex-direction: column;
 		justify-content: flex-start;
-		padding: 0px 4px;
+		padding: 0px 10px;
 	}
 
 	.hero-content,

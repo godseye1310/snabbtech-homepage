@@ -9,6 +9,8 @@
 @import url("home/services1.css");
 @import url("home/portfolio.css");
 @import url("home/support.css");
+@import url("home/partnership-industry.css");
+@import url("home/solutions.css");
 
 /* About page */
 @import url("about/about-hero.css");
@@ -130,11 +132,7 @@ button {
 }
 
 .btn:hover {
-	width: fit-content;
-	font-family: var(--font-text);
-	font-size: 14px;
 	text-align: center;
-	height: auto;
 	padding: 12px 20px;
 	background-color: var(--btn-bg);
 	color: var(--btn-text);

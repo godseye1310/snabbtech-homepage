@@ -3,7 +3,8 @@
 }
 
 .portfolio-header {
-	padding-top: 50px;
+	padding-top: 12px;
+	padding-inline: 10px;
 	text-align: left;
 	display: flex;
 	flex-direction: column;
@@ -30,7 +31,7 @@
 .portfolio-container {
 	display: flex;
 	align-items: stretch;
-	padding: 48px 0px;
+	padding: 48px 12px;
 	font-family: var(--font-nunito);
 }
 
@@ -160,7 +161,7 @@
 
 .portfolio-cta {
 	height: fit-content;
-	padding: 0px 0px 48px;
+	padding: 0px 10px 48px;
 }
 
 .portfolio-cta__btn {
