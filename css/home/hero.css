@@ -115,7 +115,7 @@
 	text-align: center;
 }
 
-.review-list {
+.preview-list {
 	margin: 0 auto;
 	padding: 30px;
 	display: flex;
@@ -126,7 +126,7 @@
 	max-width: 900px;
 }
 
-.review__card {
+.preview__card {
 	width: 250px;
 	height: 100px;
 	background-color: #ffffff;

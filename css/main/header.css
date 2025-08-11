@@ -68,6 +68,10 @@
 	color: var(--secondary-color);
 }
 
+.active {
+	color: var(--secondary-color);
+}
+
 .header__menu li a {
 	padding: 10px 19px;
 }
