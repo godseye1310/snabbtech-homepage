@@ -2,7 +2,9 @@
 
 /* Common UI components */
 @import url("main/header.css");
-/* @import url("home/footer.css"); */
+@import url("main/reviews.css");
+@import url("main/blogs.css");
+@import url("main/footer.css");
 
 /* Home page */
 @import url("home/hero.css");
