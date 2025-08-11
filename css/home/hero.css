@@ -141,7 +141,13 @@
 	color: #1a1a1a;
 	text-align: center;
 }
-
+.name,
+.rating {
+	color: #1a1a1a;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
 .stars span {
 	color: #fbbf24;
 }

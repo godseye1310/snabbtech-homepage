@@ -28,7 +28,7 @@
 .about-hero__content {
 	display: flex;
 	flex-direction: column;
-	background-image: url("/public/img/about-img/about-banner.png");
+	background-image: url("/img/about-img/about-banner.png");
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: contain;

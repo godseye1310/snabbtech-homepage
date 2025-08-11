@@ -1,10 +1,28 @@
 .blogs {
 	background-color: var(--bg-grey);
-	padding: 80px 12px;
+	padding: 80px 24px;
 }
 
 .blog-header {
 	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.blog-header-btn {
+	padding: 12px 30px !important;
+	font-family: var(--font-jost) !important;
+	font-size: 18px !important;
+	font-weight: 600 !important;
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+	/*  */
+	display: flex;
+	align-items: baseline;
+	gap: 20px;
+}
+.arrow {
+	font-size: 22px;
 }
 
 .blog-list {
@@ -95,4 +113,25 @@
 .btn-blog:hover {
 	background-color: #fff;
 	color: var(--btn-bg);
+}
+
+@media (max-width: 1023px) {
+	.blog-list {
+		padding-inline: 0px;
+	}
+	.blog-header h2 {
+		font-size: 45px;
+	}
+}
+
+@media (max-width: 767px) {
+	.blog-header {
+		flex-direction: column;
+
+		align-items: start;
+	}
+
+	.blog-header h2 {
+		font-size: 35px;
+	}
 }
