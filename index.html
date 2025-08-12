@@ -14,7 +14,9 @@
 		<title>SnabbTech | Homepage</title>
 	</head>
 	<body id="home">
+		<!-- Header -->
 		<header class="header">
+			<!-- Navigation Bar -->
 			<nav class="header__nav">
 				<figure class="header__logo">
 					<img
@@ -49,23 +51,56 @@
 					</li>
 				</ul>
 
+				<!-- Hamburger Nav for small screens -->
 				<div class="header__menu-mobile">
-					<div class="header__menu-btn">
+					<button
+						class="header__menu-btn btn btn-link p-0"
+						type="button"
+						data-bs-toggle="dropdown"
+						aria-expanded="false"
+					>
 						<img
 							src="/img/menu.svg"
 							alt="menu"
 							width="50"
 							height="30"
 						/>
-					</div>
+					</button>
 
-					<!-- Mobile Menu -->
-
-					<!-- <ul>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul> -->
+					<!-- Dropdown Menu -->
+					<ul
+						class="dropdown-menu dropdown-menu-end custom-mobile-menu"
+					>
+						<li class="dropdown-item dropdown-item-active">
+							<a class="dropdown-link" href="#home">Home</a>
+						</li>
+						<li class="dropdown-item">
+							<a class="dropdown-link" href="about.html">About</a>
+						</li>
+						<li class="dropdown-item">
+							<a class="dropdown-link" href="services.html"
+								>Services</a
+							>
+						</li>
+						<li class="dropdown-item">
+							<a class="dropdown-link" href="#industry"
+								>Industry</a
+							>
+						</li>
+						<li class="dropdown-item">
+							<a class="dropdown-link" href="#portfolio"
+								>Portfolio</a
+							>
+						</li>
+						<li class="dropdown-item">
+							<a class="dropdown-link" href="#partnership"
+								>Partnership</a
+							>
+						</li>
+						<li class="dropdown-item">
+							<a class="dropdown-link" href="#blog">Blog</a>
+						</li>
+					</ul>
 				</div>
 
 				<div class="header-btn">
