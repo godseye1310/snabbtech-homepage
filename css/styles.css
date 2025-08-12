@@ -78,6 +78,7 @@ body {
 	margin: 0 auto;
 	color: #000000;
 	background-color: var(--bg-main);
+	overflow-x: hidden;
 }
 
 h1,

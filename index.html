@@ -116,7 +116,7 @@
 			<div class="container">
 				<div class="hero-container">
 					<div class="hero-content">
-						<h1>
+						<h1 data-aos="fade-right">
 							Your Trusted Tech Partner in
 							<span>Product Engineering.</span>
 						</h1>
@@ -143,6 +143,7 @@
 							alt="hero-img"
 							width="375px"
 							height="742px"
+							data-aos="fade-up"
 						/>
 					</figure>
 				</div>
@@ -213,7 +214,7 @@
 		<!-- Services Section -->
 		<section class="container">
 			<div class="services">
-				<div class="services-list">
+				<div class="services-list" data-aos="fade-up">
 					<!-- service lists -->
 					<div class="service-card">
 						<div class="service-content">
@@ -440,7 +441,7 @@
 				<!-- Support List -->
 				<div class="support-list">
 					<!-- Support Section - 1 -->
-					<section class="support-section">
+					<section class="support-section" data-aos="fade-left">
 						<article class="support-card">
 							<div class="support-card_main">
 								<div class="support-card__image">
@@ -508,7 +509,11 @@
 						</article>
 					</section>
 					<!-- Support Section - 2 -->
-					<section class="support-section">
+					<section
+						class="support-section"
+						data-aos="fade-left"
+						data-aos-delay="300"
+					>
 						<article class="support-card">
 							<div class="support-card_main">
 								<div class="support-card__image">
@@ -609,7 +614,11 @@
 						</div>
 					</div>
 					<div class="partnership-image">
-						<figure>
+						<figure
+							data-aos="fade-down"
+							data-aos-offset="300"
+							data-aos-duration="600"
+						>
 							<img
 								src="/img/partnership.jpg"
 								alt=""
@@ -627,7 +636,7 @@
 			<div class="container">
 				<div class="industry-container">
 					<div class="industry-image">
-						<figure>
+						<figure data-aos="fade-right">
 							<img
 								src="/img/industry.webp"
 								alt=""
@@ -638,7 +647,7 @@
 					</div>
 
 					<!-- industry content -->
-					<div class="industry-content">
+					<div class="industry-content" data-aos="fade-left">
 						<h5>
 							<span
 								><img
@@ -734,7 +743,7 @@
 						<h2>Unique Solutions <span>SnabbTech offers</span></h2>
 						<p>Beyond Development: End-to-End Product Success</p>
 
-						<div class="unique-solution-list">
+						<div class="unique-solution-list" data-aos="fade-up">
 							<!-- Unique solution cards -->
 							<!-- Uses .service* classes for styling from service1.css -->
 							<div class="unique-solution-card">
@@ -808,7 +817,7 @@
 			<!-- Best Solutions -->
 			<section class="best-solution">
 				<div class="container">
-					<div class="best-solution-container">
+					<div class="best-solution-container" data-aos="fade-up">
 						<h2>Best <span>Solutions</span></h2>
 						<p>
 							Continuous iteration and adaptation based on
@@ -817,9 +826,14 @@
 
 						<div class="best-solution__list">
 							<!-- Best solution cards -->
+							<!-- first section -->
 							<section>
 								<!-- Uses .all-service classes for styling from about-main.css  -->
-								<div class="best-solution__section">
+								<div
+									class="best-solution__section"
+									data-aos="zoom-in-up"
+									data-aos-duration="500"
+								>
 									<div
 										class="all-service__card best-solution__card"
 									>
@@ -883,8 +897,13 @@
 									</div>
 								</div>
 							</section>
+							<!-- second section -->
 							<section>
-								<div class="best-solution__section">
+								<div
+									class="best-solution__section"
+									data-aos="zoom-in-up"
+									data-aos-duration="500"
+								>
 									<div
 										class="all-service__card best-solution__card"
 									>
@@ -1576,7 +1595,7 @@
 		</footer>
 
 		<!-- Scripts -->
-		<!-- <script type="module" src="/src/main.js"></script> -->
+		<script type="module" src="js/script.js"></script>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
