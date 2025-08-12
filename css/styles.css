@@ -2,22 +2,18 @@
 
 /* Common UI components */
 @import url("main/header.css");
-@import url("main/reviews.css");
+@import url("main/testimonials.css");
 @import url("main/blogs.css");
 @import url("main/footer.css");
 
 /* Home page */
-@import url("home/hero.css");
-@import url("home/services1.css");
-@import url("home/portfolio.css");
-@import url("home/support.css");
-@import url("home/partnership-industry.css");
-@import url("home/solutions.css");
+@import url("home");
 
 /* About page */
-@import url("about/about-hero.css");
-@import url("about/about-banner.css");
-@import url("about/about-main.css");
+@import url("about");
+
+/* Services page */
+@import url("services");
 
 @font-face {
 	font-family: "sf pro", Sans-serif;
@@ -99,6 +95,10 @@ h1 > span,
 h2 > span,
 h3 > span {
 	color: var(--secondary-color);
+}
+
+h6 {
+	font-size: 12px;
 }
 
 a {
